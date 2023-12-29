@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ba1d0a;;
+    background-color: #ba1d0a;
 }
 .container{
     background-color: white;
@@ -22,7 +22,7 @@ form{
     display: flex;
     flex-direction: column;
 }
-#button-form{
+.button-form{
     background-color: #ba1d0a;
     color: white;
     font-weight: bold;
@@ -30,6 +30,10 @@ form{
     border: none;
     padding: 10px;
     width: 40%;
+}
+.button-form:hover{
+    background-color: white;
+    color: black;
 }
 form input{
     border-radius: 20px;
